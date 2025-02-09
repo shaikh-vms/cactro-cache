@@ -32,7 +32,9 @@ The Docker image was pushed to **Docker Hub** to make it accessible for deployme
 
 ### 4. Deployment on Render
 
-The application was deployed using **Render Web Services**. It is now live and can be accessed at the following URL:
+The application was deployed using **Render Web Services**. 
+Refer for [steps to deploy on render](https://hostingtutorials.dev/blog/free-spring-boot-host-with-render)
+It is now live and can be accessed at the following URL:
 
 [https://cache-7kmf.onrender.com/](https://cache-7kmf.onrender.com/)
 
