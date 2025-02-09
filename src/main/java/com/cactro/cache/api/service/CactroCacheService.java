@@ -12,7 +12,7 @@ import com.cactro.cache.api.model.CacheData;
 @Service
 public class CactroCacheService {
 
-	private static final int MAX_SIZE = 1;
+	private static final int MAX_SIZE = 10;
 	private final ConcurrentHashMap<String, Object> cache = new ConcurrentHashMap<>();
 	private final ConcurrentHashMap<String, Long> expirationTimes = new ConcurrentHashMap<>();
 
